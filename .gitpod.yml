@@ -1,3 +1,4 @@
-image: gitpod/workspace-full
+image: node:20
 tasks:
   - init: npm install
+    command: npm run dev
